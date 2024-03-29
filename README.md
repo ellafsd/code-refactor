@@ -1,17 +1,26 @@
 # code-refactor
 Embarking on a digital accessibility odyssey! 🚀
-Project Title
+
+
+Project Title:
+
 Module 1 Challenge: Enhancing Web Accessibility
 
-Project Description
+
+Project Description:
+
 HTML and CSS Challenge to increase the accessible of the given web page 
 
-User Story
+
+User Story:
+
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
-Acceptance Criteria
+
+Acceptance Criteria:
+
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
@@ -24,7 +33,8 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 
-Implementation Details
+Implementation Details:
+
 Header and Navigation: I replaced the non-semantic <div class="header"> with a semantic <header> element to define the introduction and navigational part of the webpage. Inside the <header>, I used the <nav> element to encapsulate navigation links, making it easier for assistive technologies to identify the site's main navigation area.
 Main Content Area: The central content was wrapped in a <main> element instead of a generic <div>. This marks the content as the main body of the document, aiding assistive devices in finding the primary content quickly.
 Aside for Side Content: I utilized the <aside> element to wrap the side content, which typically consists of information tangentially related to the main content, like benefits in this case. 
